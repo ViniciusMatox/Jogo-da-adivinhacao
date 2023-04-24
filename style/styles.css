@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root{
+    --font-family: 'Ubuntu', sans-serif;
+    --bg-color: #537FE7;
+    --primary-color: #E9F8F9;
+
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-family: var(--font-family);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    /* font-size: 40px; */
+}
+
+.titulo{
+    font-size: 4em;
+
+}
+
+.sub{
+    font-size: 2em;
+    margin: 1em 0
+}
+
+.mensagem{
+    font-size: 1.5em;
+}
+
+.box{
+    border: 0.05em solid var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: .1em;
+    margin: .2em;
+}
+
+
+.acertou{
+    font-size: 3em;
+}
+.numero{
+    font-size: 2em;
+    padding: 1em;
+}
+
+.jogarDeNovo{
+    padding: 1em;
+    font-style: italic;
+}
+
+.btn__jogar{
+    border: 1px solid var(--primary-color);
+    border-radius: 19px;
+    border-color: azure;
+    font-family: var(--font-family);
+    background-color: cornflowerblue;
+    color: var(--primary-color);
+    margin: 2em;
+    padding: .7em;
+    box-shadow: 0 0 5px cornflowerblue, 0 0 25px cornflowerblue;
+}
+.btn__jogar:hover{
+    background-color: aliceblue;
+    color: black;
+    transition: 1s;
+    transform: scale(0.90);
+    box-shadow: 0 0 5px aliceblue, 0 0 25px aliceblue, 0 0 50px aliceblue, 0 0 100px aliceblue, 0 0 200px aliceblue;
+}
+
